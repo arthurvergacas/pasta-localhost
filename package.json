@@ -1,0 +1,32 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Learning puposes",
+	"main": "./api/src/server.ts",
+	"scripts": {
+		"dev": "ts-node-dev ./api/src/server.ts --downlevelIteration",
+		"create-db": "knex --knexfile knexfile.ts migrate:latest",
+		"start": "ts-node ./api/src/server.ts"
+	},
+	"author": "Arthur Vergaças <arthurvergacas>",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"knex": "^0.21.2",
+		"multer": "^1.4.2",
+		"sqlite3": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.7",
+		"@types/express": "^4.17.7",
+		"@types/formidable": "^1.0.31",
+		"@types/jsonwebtoken": "^8.5.0",
+		"@types/multer": "^1.4.3",
+		"ts-node": "^8.10.2",
+		"ts-node-dev": "^1.0.0-pre.56",
+		"typescript": "^3.9.7"
+	}
+}
