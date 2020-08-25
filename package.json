@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "ts-node-dev ./api/src/server.ts --downlevelIteration",
 		"create-db": "knex --knexfile knexfile.ts migrate:latest",
-		"start": "ts-node ./api/src/server.ts"
+		"start": "node ./js/api/src/server.js"
 	},
 	"author": "Arthur Vergaças <arthurvergacas>",
 	"license": "ISC",

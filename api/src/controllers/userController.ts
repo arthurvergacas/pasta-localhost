@@ -2,8 +2,6 @@ import { Request, Response, NextFunction } from "express";
 import knex from "./../database/connection";
 import jwt from "jsonwebtoken";
 import * as dotenv from "dotenv";
-import "./../../../";
-import { ValueDict } from "knex";
 dotenv.config();
 
 // Type of the userId parameter when it is passed through the authentication process
