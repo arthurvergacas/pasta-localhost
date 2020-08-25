@@ -18,7 +18,7 @@ app.use(router_1.default);
 app.use(
 	"/",
 	express_1.default.static(
-		path_1.default.resolve(__dirname, "..", "..", "client", "dist")
+		path_1.default.resolve(__dirname, "..", "..", "..", "client", "dist")
 	)
 );
 // The files
