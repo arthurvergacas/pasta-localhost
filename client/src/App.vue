@@ -9,7 +9,7 @@
         </h1>
       </div>
       <div class="p-2 align-self-center">
-        <button type="button" @click="logOut" class="btn btn-outline-dark logout">Sair</button>
+        <button type="button" @click="logOut" class="btn btn-outline-dark logout">Log Out</button>
       </div>
     </nav>
 
@@ -22,7 +22,7 @@
     <footer class="footer">
       <div class="container">
         <span class="text-muted">
-          Feito por
+          Made by
           <a class="footer-link" href="https://github.com/arthurvergacas">Arthur Vergaças</a>
         </span>
       </div>
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import config from "@/config.js"
+import config from "@/config.js";
 
 const API_URL = config.url;
 

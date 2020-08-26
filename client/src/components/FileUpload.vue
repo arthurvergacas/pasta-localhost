@@ -12,8 +12,8 @@
   >
     <!-- if there are no files being sent -->
     <div class="dropzone-content" v-if="!sendingFile">
-      <h3 class="dropzone-title">Solte seus arquivos aqui para fazer o upload!</h3>
-      <small class="subtitle">... ou clique para selecionar um arquivo do seu computador</small>
+      <h3 class="dropzone-title">Drop your files here to upload!</h3>
+      <small class="subtitle">... or click to pick from your computer</small>
     </div>
 
     <!-- if there are files being sent -->
@@ -68,7 +68,7 @@ export default {
         paramName: function() {
           return "file";
         },
-        dictDefaultMessage: "Faça o upload aqui",
+        dictDefaultMessage: "Upload here",
         includeStyling: false,
         previewsContainer: false,
         uploadMultiple: true,

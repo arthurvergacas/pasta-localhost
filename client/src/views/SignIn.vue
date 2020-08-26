@@ -57,7 +57,7 @@ export default {
 
       this.isLoading = false;
 
-      if (response.message == "Nome de usuário já existe.") {
+      if (response.message == "User already exists") {
         this.notValid = true;
       } else {
         window.location.replace("/");

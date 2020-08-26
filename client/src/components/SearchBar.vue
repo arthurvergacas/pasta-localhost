@@ -4,7 +4,7 @@
     spellcheck="false"
     v-model="search"
     class="search"
-    placeholder="Pesquise um usuário ou arquivo"
+    placeholder="Search for a file or a user"
   />
 </template>
 

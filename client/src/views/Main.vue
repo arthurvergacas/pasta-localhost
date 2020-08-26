@@ -64,7 +64,7 @@ export default {
   beforeRouteLeave(to, from, next) {
     if (this.isUploading) {
       const answer = window.confirm(
-        "Se você sair agora seus arquivos não serão salvos na Pasta: Localhost!\nTem certeza disso?"
+        "If you leave now, your files won't be submitted to the Pasta: Localhost!\nAre you sure you want to leave?"
       );
       if (answer) {
         next();
