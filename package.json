@@ -2,9 +2,9 @@
 	"name": "server",
 	"version": "1.0.0",
 	"description": "Learning puposes",
-	"main": "./api/src/server.ts",
+	"main": "./ts_files/src/server.ts",
 	"scripts": {
-		"dev": "ts-node-dev ./api/src/server.ts --downlevelIteration",
+		"dev": "ts-node-dev ./ts_files/src/server.ts --downlevelIteration",
 		"create-db": "knex --knexfile knexfile.ts migrate:latest",
 		"start": "node ./js/api/src/server.js"
 	},

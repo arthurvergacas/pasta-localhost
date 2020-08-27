@@ -1,7 +1,7 @@
 import { Request, Response, query } from "express";
 import fs from "fs";
 import path from "path";
-import knex from "./../database/connection";
+import knex from "../database/connection";
 
 // Type of the userId parameter when it is passed through the authentication process
 interface customReq extends Request {
